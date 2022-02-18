@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: #e0e8ec;
+}
+.cabecalho {
+    display: flex; /* diz que eu quero usar o flexblox*/
+    flex-direction: row; /* informa a direção que os itens que pertencem ao pai, devem ir*/
+    align-items: center; /* informa a maneira como dece ser alinhado*/
+    justify-content: space-evenly;
+    background-color: #51a5cc;
+}
+
+.cabecalho-logo{
+    padding: 10px;
+    width: 100px;
+    
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 35px;
+}
+.cabecalho-menu, a {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color: #154963;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.content-frase {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    padding: 0;
+    font-size: 25px;
+    font-family: 'Mohave', sans-serif;
+    
+}
+.content-portfolio {
+    padding: 20px;
+    margin: 0px;
+}
+.port-parte1 img {
+    height: 290px;
+}
+.port-parte2 img {
+    height: 290px;
+}
+.port-parte3 img {
+    height: 290px;
+}
+.marfi {
+    
+    margin-bottom: 170px;
+    margin-right: 50px;
+    justify-content: left;
+    height: 550px;
+}
+.imagem-marfi {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 1000px;
+}
+.sobre {
+    margin-top: 150px;
+    margin-left: 230px;
+    margin-right: 900px; 
+    
+}
+.titulo-topico {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: #51a5cc;
+    justify-content: center;
+}
+.texto {
+    font-family: 'Mohave', sans-serif;
+    color: #262728;
+    text-transform: uppercase;
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    font-family: 'Mohave', sans-serif;
+    color: #262728;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.rodape label {
+    color: #51a5cc;
+}
