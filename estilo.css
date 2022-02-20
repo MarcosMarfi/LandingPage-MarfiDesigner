@@ -47,23 +47,29 @@ a:hover {
     font-family: 'Mohave', sans-serif;
     
 }
-.content-portfolio {
-    padding: 20px;
-    margin: 0px;
+
+.img-linha1, .img-linha2, .img-linha3 {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto 10px auto;
+    gap: 10px;
 }
-.port-parte1 img {
-    height: 290px;
+
+.titulo-topico {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: #51a5cc;
+    
 }
-.port-parte2 img {
-    height: 290px;
-}
-.port-parte3 img {
-    height: 290px;
-}
+
 .marfi {
     
     margin-bottom: 170px;
     margin-right: 50px;
+    margin-top: 0px;
     justify-content: left;
     height: 550px;
 }
@@ -71,31 +77,37 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: right;
-    width: 1000px;
+    margin-right: 50px;
 }
+
 .sobre {
-    margin-top: 150px;
-    margin-left: 230px;
-    margin-right: 900px; 
-    
-}
-.titulo-topico {
-    margin-top: 100px;
-    margin-bottom: 0px;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 40px;
-    color: #51a5cc;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 .texto {
+    border: 1px solid #000;
     font-family: 'Mohave', sans-serif;
     color: #262728;
     text-transform: uppercase;
     text-align: justify;
-    font-size: 15px;
-    margin-top: 0px;
+    font-size: 17px;
+    
+
 }
 
+p strong {
+    color: #154963;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+}
+.rede-img {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 5vh;
+}
 .rodape {
     display: flex;
     justify-content: center;
