@@ -67,7 +67,7 @@ a:hover {
 
 .marfi {
     
-    margin-bottom: 170px;
+    margin-bottom: 100px;
     margin-right: 50px;
     margin-top: 0px;
     justify-content: left;
@@ -77,7 +77,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: right;
-    margin-right: 50px;
+    margin-right: 100px;
 }
 
 .sobre {
@@ -85,16 +85,17 @@ a:hover {
     flex-direction: column;
 }
 .texto {
-    border: 1px solid #000;
     font-family: 'Mohave', sans-serif;
     color: #262728;
     text-transform: uppercase;
     text-align: justify;
     font-size: 17px;
-    
-
 }
-
+.texto p {
+    width: 600px;
+    
+    margin: 0 auto;
+}
 p strong {
     color: #154963;
 }
